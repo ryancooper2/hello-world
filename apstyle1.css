@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.bg1 {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(school.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.bg2 {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(student.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.bg3 {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(documents.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.bg4 {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(problem.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.bg5 {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(credit-card.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.logo img{
+
+	width: 150px;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+
+body {
+
+	font-family: monospace;
+}
+
+.row {
+
+	max-width: 1200px;
+	margin: auto;
+}
+.main-nav {
+
+float: right;
+/*list-style: none;*/
+margin-top: 30px;
+}
+
+/*.main-nav li {
+
+	display: inline-block;
+}*/
+
+.main-nav li{
+
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+h1{
+
+	font-family: ubuntu, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 55px;
+	text-align: center;
+	/*margin-top: 275px;*/
+	padding-top:50px;
+}
+h2{
+
+	font-family: ubuntu, sans-serif;
+	color: white;
+	/*text-transform: uppercase;*/
+	font-size: 35px;
+	text-align: center;
+	/*margin-top: 275px;*/
+	padding-top:50px;
+}
+p{
+	font-family: ubuntu, sans-serif;
+	color: white;
+	/*text-transform: uppercase;*/
+	font-size: 15px;
+}	
+
+/*FAQ CSS
+
+.collapsible {
+	
+}	
+.active, .collapsible:hover {
+  background-color: rgb(184,0,0);
+}
+.collapsible:after {
+	
+}
+.active:after {
+  content: "\25BE";
+}
+.content {
+	
+}	*/

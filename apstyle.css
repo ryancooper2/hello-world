@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Montserrat-Medium.ttf);
+}
+
+* {
+    font-family: myFirstFont;
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.bg {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(booksbgd.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.logo img{
+
+	width: 150px;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+
+body {
+
+	font-family: monospace;
+}
+
+.row {
+
+	max-width: 1200px;
+	margin: auto;
+}
+
+.wrapper {
+	padding-top:100px;
+}	
+h1{
+
+	font-family: ubuntu, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 55px;
+	text-align: center;
+	/*margin-top: 275px;*/
+	padding-top:50px;
+}
+h2{
+
+	font-family: ubuntu, sans-serif;
+	color: white;
+	/*text-transform: uppercase;*/
+	font-size: 35px;
+	text-align: center;
+	/*margin-top: 275px;*/
+	padding-top:50px;
+}
+
+/*FAQ CSS*/
+
+.collapsible {
+  background-color: rgb(204,0,0);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 28px;
+  opacity: 0.5;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(184,0,0);
+}
+
+.collapsible:after {
+  content: '\25B8';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\25BE";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: 20px;
+}
+
+#answer {
+	color: rgb(255,255,255);
+	font-family: myFirstFont;
+}	
+

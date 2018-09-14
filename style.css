@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.bg {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav {
+
+float: right;
+list-style: none;
+margin-top: 30px;
+}
+
+.main-nav li {
+
+	display: inline-block;
+}
+
+.main-nav li a {
+
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li a:hover {
+
+border: 1px solid white;
+
+}
+
+.logo img{
+
+	width: 150px;
+	height: auto;
+	padding: 10px;
+	float: left;
+}
+
+body {
+
+	font-family: monospace;
+}
+
+.row {
+
+	max-width: 1200px;
+	margin: auto;
+}
+
+.hero{
+
+	position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 0;
+	height: 0px;
+}
+
+h1{
+
+	font-family: ubuntu, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	font-size: 55px;
+	text-align: center;
+	margin-top: 275px;
+}
+
+.button{
+
+	margin-top: 30px;
+	}
+
+.btn{
+
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.btn-one{
+	margin-left: 440px;
+	font-family: "Roboto", sans-serif;
+	margin-right: 16px;
+}
+
+.btn-one:hover{
+
+	background-color: white;
+	color: black;
+	transition: all 0.1s ease-in;
+ 
+}
+
+.btn-two{
+	
+	font-family: "Roboto", sans-serif;
+	margin-right: 0px;
+}
+
+.btn-two:hover{
+
+	background-color: white;
+	color: black;
+	transition: all 0.1s ease-in;
+ 
+}
+
+.newbg {
+
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(bgcontinue.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.newhero{
+
+	
+	position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 0;
+	height: 0px;
+}
+
+.btn-three{
+	margin-left: 335px;
+	font-family: "Roboto", sans-serif;
+	margin-right: 16px;
+}
+
+.btn-three:hover{
+
+	background-color: white;
+	color: black;
+	transition: all 0.1s ease-in;
+ 
+}
+
+.btn-four{
+
+	
+	font-family: "Roboto", sans-serif;
+	margin-right: 16px;
+}
+
+.btn-four:hover{
+
+	background-color: white;
+	color: black;
+	transition: all 0.1s ease-in;
+ 
+}
+
+.btn-five{
+
+	
+	font-family: "Roboto", sans-serif;
+	margin-right: 16px;
+}
+
+.btn-five:hover{
+
+	background-color: white;
+	color: black;
+	transition: all 0.1s ease-in;
+ 
+}
+
